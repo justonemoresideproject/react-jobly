@@ -1,0 +1,101 @@
+.NavBar {
+    width: 100vw;
+    height: 47px;
+
+    margin: 0px;
+    padding: 0px;
+
+    position:relative;
+
+    border-color: black;
+    
+    background: fixed;
+    background-color: rgb(80, 163, 196);
+
+
+    /* background-color: linear-gradient(to left, rgb(35, 231, 35), rgb(6, 112, 6)); */
+
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-style: none;
+
+    z-index: 1;
+}
+
+.brand-wrapper {
+    margin: 0px;
+    padding: 0px;
+
+    width: 300px;
+
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar-brand {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    width: 300px;
+    height: 50px;
+
+    background-color: rgb(3, 50, 82);
+    color: white;
+
+    font-size: 35px;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar-brand:hover{
+    color: rgb(138, 138, 138);
+    background-color: rgb(3, 75, 122);
+}
+
+.navbar-link {
+    width: 300px;
+    height: 50px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+
+    background-color: rgb(3, 50, 82);
+    color: white;
+}
+
+.navbar-link:hover {
+    color: rgb(138, 138, 138);
+    background-color: rgb(3, 75, 122);
+}
+
+.navbar-link:active{
+    color: rgb(138, 138, 138);
+    background-color: rgb(3, 75, 122);
+}
+
+.resource-wrapper {
+    margin: 0px;
+    padding: 0px;
+
+    float:right;
+
+    color:rgb(35, 231, 35);
+
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
